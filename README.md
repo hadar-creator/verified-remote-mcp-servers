@@ -2,7 +2,7 @@
 
 Every server is checked with a real MCP handshake: initialize + tools/list for open servers, and a 401 auth challenge for protected ones. Failures are removed. PRs are checked automatically and merged within a day — no waiting months. Checks are dated observations; auth challenges establish reachability, and we never invoke tools.
 
-2974 servers · 1792 handshakes passed · 1182 require authentication · 18 categories
+2975 servers · 1792 handshakes passed · 1183 require authentication · 18 categories
 
 [Add a server](CONTRIBUTING.md) · [Data license: CC BY 4.0](LICENSE-DATA) · [Code license: MIT](LICENSE)
 
@@ -1128,6 +1128,7 @@ Every server is checked with a real MCP handshake: initialize + tools/list for o
 | [AdsCove](https://appside.build/mcp-servers/adscove/) | <code>https://adscove.com/api/mcp</code> | OAuth | 🔐 auth required | [AdsCove](https://adscove.com/) |
 | [Advibly](https://appside.build/mcp-servers/mcp/) | <code>https://advibly.com/mcp</code> | OAuth | 🔐 auth required | [Mcp](https://github.com/advibly/mcp) |
 | [Duchamp](https://appside.build/mcp-servers/duchamp/) | <code>https://duchamp.app/api/mcp</code> | other | 🔐 auth required | [Duchamp](https://duchamp.app/) |
+| [Get MCP Ads](https://appside.build/mcp-servers/get-mcp-ads/) | <code>https://mcp.getmcpads.com/mcp</code> | OAuth | 🔐 auth required | [Get MCP Ads](https://www.getmcpads.com/) |
 | [Gingerlive](https://appside.build/mcp-servers/gingerlive/) | <code>https://mcp.gingerlive.io/mcp</code> | other | ✅ handshake · 6 tools | [Gingerlive](https://github.com/gingerlive-io/gingerlive-mcp) |
 | [Krafters](https://appside.build/mcp-servers/krafters/) | <code>https://www.krafters.fr/mcp</code> | OAuth | 🔐 auth required | [Krafters](https://www.krafters.fr/) |
 | [Meshkore](https://appside.build/mcp-servers/mcp-33/) | <code>https://mcp.meshkore.com/v1/mcp</code> | other | ✅ handshake · 3 tools | [Mcp](https://github.com/meshkore/mcp) |

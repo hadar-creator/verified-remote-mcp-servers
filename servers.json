@@ -14644,6 +14644,20 @@
     }
   },
   {
+    "slug": "get-mcp-ads",
+    "name": "Get MCP Ads",
+    "url": "https://mcp.getmcpads.com/mcp",
+    "category": "Advertising",
+    "auth": "OAuth",
+    "maintainer": "Get MCP Ads",
+    "site": "https://www.getmcpads.com/",
+    "check": {
+      "status": "auth_required",
+      "checkedAt": "2026-11-24T10:40:10.109Z",
+      "toolCount": null
+    }
+  },
+  {
     "slug": "get4agent",
     "name": "Get4agent",
     "url": "https://get4agent.com/mcp",
