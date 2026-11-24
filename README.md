@@ -2,7 +2,7 @@
 
 Every server is checked with a real MCP handshake: initialize + tools/list for open servers, and a 401 auth challenge for protected ones. Failures are removed. PRs are checked automatically and merged within a day — no waiting months. Checks are dated observations; auth challenges establish reachability, and we never invoke tools.
 
-2973 servers · 1791 handshakes passed · 1182 require authentication · 18 categories
+2974 servers · 1792 handshakes passed · 1182 require authentication · 18 categories
 
 [Add a server](CONTRIBUTING.md) · [Data license: CC BY 4.0](LICENSE-DATA) · [Code license: MIT](LICENSE)
 
@@ -2563,6 +2563,7 @@ Every server is checked with a real MCP handshake: initialize + tools/list for o
 | [fillfolio.com](https://appside.build/mcp-servers/fillfolio-com/) | <code>https://fillfolio.com/api/mcp</code> | other | 🔐 auth required | [fillfolio.com](https://fillfolio.com/) |
 | [Find your role first](https://appside.build/mcp-servers/find-your-role-first/) | <code>https://findyourrolefirst.click/mcp</code> | other | 🔐 auth required | [Find your role first](https://findyourrolefirst.click/) |
 | [FindADoctor.si](https://appside.build/mcp-servers/findadoctor-si/) | <code>https://api.findadoctor.si/mcp</code> | Open | ✅ handshake · 9 tools | [FindADoctor.si](https://findadoctor.si/) |
+| [FineRx](https://appside.build/mcp-servers/finerx/) | <code>https://www.finerxfinder.com/mcp</code> | Open | ✅ handshake · 19 tools | [FineRx](https://www.finerxfinder.com/) |
 | [Firecrawl](https://appside.build/mcp-servers/docs-2/) | <code>https://mcp.firecrawl.dev/v2/mcp-oauth</code> | other | 🔐 auth required | [docs](https://docs.firecrawl.dev/mcp-server?utm_source=yuzehao2023-awesome-mcp-servers&utm_medium=integration) |
 | [Firecrawl](https://appside.build/mcp-servers/firecrawl/) | <code>https://mcp.firecrawl.dev/v2/mcp</code> | other | ✅ handshake · 3 tools | [Firecrawl](https://github.com/firecrawl/firecrawl-mcp-server) |
 | [Firemark](https://appside.build/mcp-servers/firemark/) | <code>https://app.tryfiremark.com/mcp</code> | other | 🔐 auth required | [Firemark](https://tryfiremark.com/) |

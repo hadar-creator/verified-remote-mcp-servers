@@ -13244,6 +13244,20 @@
     }
   },
   {
+    "slug": "finerx",
+    "name": "FineRx",
+    "url": "https://www.finerxfinder.com/mcp",
+    "category": "Other",
+    "auth": "Open",
+    "maintainer": "FineRx",
+    "site": "https://www.finerxfinder.com/",
+    "check": {
+      "status": "passed",
+      "checkedAt": "2026-11-24T08:48:32.162Z",
+      "toolCount": 19
+    }
+  },
+  {
     "slug": "finology",
     "name": "Finology",
     "url": "https://mcp.finology.tech/mcp",
