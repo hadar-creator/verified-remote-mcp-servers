@@ -2,7 +2,7 @@
 
 Every server is checked with a real MCP handshake: initialize + tools/list for open servers, and a 401 auth challenge for protected ones. Failures are removed. PRs are checked automatically and merged within a day — no waiting months. Checks are dated observations; auth challenges establish reachability, and we never invoke tools.
 
-2971 servers · 1790 handshakes passed · 1181 require authentication · 18 categories
+2972 servers · 1791 handshakes passed · 1181 require authentication · 18 categories
 
 [Add a server](CONTRIBUTING.md) · [Data license: CC BY 4.0](LICENSE-DATA) · [Code license: MIT](LICENSE)
 
@@ -1585,6 +1585,7 @@ Every server is checked with a real MCP handshake: initialize + tools/list for o
 | [Director's Lookbook](https://appside.build/mcp-servers/director-s-lookbook/) | <code>https://lookbook-mcp.riverroadlabs.workers.dev/mcp</code> | other | ✅ handshake · 6 tools | [Director's Lookbook](https://directorslookbook.app/mcp/) |
 | [Dora](https://appside.build/mcp-servers/dora/) | <code>https://doravideo.com/mcp</code> | OAuth | 🔐 auth required | [Dora](https://github.com/Saga-Labs/dora-mcp) |
 | [Doseedo](https://appside.build/mcp-servers/doseedo/) | <code>https://api.doseedo.com/mcp</code> | other | ✅ handshake · 46 tools | [Doseedo](https://doseedo.com/mcp,) |
+| [Driglass](https://appside.build/mcp-servers/driglass/) | <code>https://drint.io/driglass/mcp</code> | Open | ✅ handshake · 2 tools | [Drint](https://drint.io/driglass) |
 | [Drint](https://appside.build/mcp-servers/drint/) | <code>https://drint.io/mcp</code> | OAuth | ✅ handshake · 11 tools | [Drint](https://drint.io/) |
 | [Dripod](https://appside.build/mcp-servers/dripod/) | <code>https://drint.io/dripod/mcp</code> | Open | ✅ handshake · 2 tools | [Drint](https://drint.io/dripod) |
 | [Drisp](https://appside.build/mcp-servers/drisp/) | <code>https://drint.io/drisp/mcp</code> | Open | ✅ handshake · 2 tools | [Drint](https://drint.io/drisp) |

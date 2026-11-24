@@ -11368,6 +11368,20 @@
     }
   },
   {
+    "slug": "driglass",
+    "name": "Driglass",
+    "url": "https://drint.io/driglass/mcp",
+    "category": "Design & Media",
+    "auth": "Open",
+    "maintainer": "Drint",
+    "site": "https://drint.io/driglass",
+    "check": {
+      "status": "passed",
+      "checkedAt": "2026-11-24T00:55:56.805Z",
+      "toolCount": 2
+    }
+  },
+  {
     "slug": "drinkedin-net",
     "name": "drinkedin.net",
     "url": "https://drinkedin.net/mcp",
