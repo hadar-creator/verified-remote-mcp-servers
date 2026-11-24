@@ -22862,6 +22862,20 @@
     }
   },
   {
+    "slug": "message-com",
+    "name": "Message.com",
+    "url": "https://app.message.com/api/v1/mcp",
+    "category": "Communication",
+    "auth": "OAuth",
+    "maintainer": "Message.com",
+    "site": "https://www.message.com/integrations/mcp",
+    "check": {
+      "status": "auth_required",
+      "checkedAt": "2026-11-24T02:29:58.084Z",
+      "toolCount": null
+    }
+  },
+  {
     "slug": "meta-ads-by-pipeboard",
     "name": "Meta Ads by Pipeboard",
     "url": "https://mcp.pipeboard.co/meta-ads-mcp",

@@ -2,7 +2,7 @@
 
 Every server is checked with a real MCP handshake: initialize + tools/list for open servers, and a 401 auth challenge for protected ones. Failures are removed. PRs are checked automatically and merged within a day — no waiting months. Checks are dated observations; auth challenges establish reachability, and we never invoke tools.
 
-2972 servers · 1791 handshakes passed · 1181 require authentication · 18 categories
+2973 servers · 1791 handshakes passed · 1182 require authentication · 18 categories
 
 [Add a server](CONTRIBUTING.md) · [Data license: CC BY 4.0](LICENSE-DATA) · [Code license: MIT](LICENSE)
 
@@ -828,6 +828,7 @@ Every server is checked with a real MCP handshake: initialize + tools/list for o
 | [MakeViral](https://appside.build/mcp-servers/makeviral/) | <code>https://www.makeviral.ai/mcp</code> | other | ✅ handshake · 14 tools | [MakeViral](https://www.makeviral.ai/) |
 | [mcp.atomicmail.ai](https://appside.build/mcp-servers/mcp-atomicmail-ai/) | <code>https://mcp.atomicmail.ai/mcp</code> | other | 🔐 auth required | [mcp.atomicmail.ai](https://mcp.atomicmail.ai/) |
 | [Mess](https://appside.build/mcp-servers/mess/) | <code>https://mess.fyi/api/mcp</code> | other | 🔐 auth required | [Mess](https://github.com/currentlyprivate/mess-mcp) |
+| [Message.com](https://appside.build/mcp-servers/message-com/) | <code>https://app.message.com/api/v1/mcp</code> | OAuth | 🔐 auth required | [Message.com](https://www.message.com/integrations/mcp) |
 | [Minutemail](https://appside.build/mcp-servers/mcp-34/) | <code>https://mcp.minutemail.co/mcp</code> | OAuth | ✅ handshake · 40 tools | [Mcp](https://github.com/minutemailco/mcp-server) |
 | [MisarReach MCP Server](https://appside.build/mcp-servers/misarreach-mcp-server/) | <code>https://api.misar.io/reach/mcp</code> | API Key | ✅ handshake · 31 tools | [MisarReach MCP Server](https://api.misar.io/reach/mcp) |
 | [More Good Reviews](https://appside.build/mcp-servers/more-good-reviews/) | <code>https://api.moregoodreviews.com/mcp</code> | OAuth | 🔐 auth required | [More Good Reviews](https://docs.moregoodreviews.com/platform/mcp-server) |
